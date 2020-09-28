@@ -39,11 +39,16 @@
           },
           {
             "name": "geo_point_2d",
-            "type": "integer",
+            "type": "geopoint",
             "format": "default"
           }
         ]
       }
+    },
+    {
+      "name": "resource2",
+      "profile": "tabular-data-resource",
+      "schema": {}
     }
   ]
 }
