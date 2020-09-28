@@ -39,7 +39,7 @@
           },
           {
             "name": "geo_point_2d",
-            "type": "geopoint",
+            "type": "string",
             "format": "default"
           }
         ]
