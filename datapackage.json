@@ -1,32 +1,49 @@
 {
-  "name": "datapackage-boilerplate",
-  "title": "A Boilerplate Data Package",
-  "format": "csv",
-  "datapackage_version": "1.0.0",
-  "last_modified": "2018-01-01",
-  "licenses": [{
-    "name": "ODC-PDDL-1.0",
-    "path": "http://opendatacommons.org/licenses/pddl/",
-    "title": "Open Data Commons Public Domain Dedication and License v1.0"
-  }],
-  "sources": [
-    {
-      "name": "Sample Data Source",
-      "web": "http://www..."
-    }
-  ],
+  "profile": "tabular-data-package",
   "resources": [
     {
-      "path": "data/some-good-data.csv",
+      "name": "jahresabonnemente_verbund",
+      "path": "verbunde_small.csv",
+      "profile": "tabular-data-resource",
       "schema": {
-        "fields": []
+        "fields": [
+          {
+            "name": "field1",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "jahr_an_anno",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "plz_npa",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "verbund_communaute_comunita",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "anzahl_nombre_quantita",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "flag",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "geo_point_2d",
+            "type": "integer",
+            "format": "default"
+          }
+        ]
       }
-    },{
-      "path": "data/the-raw-data.xls"
     }
-  ],
-  "maintainers":[{
-    "name": "School of Data CH",
-    "web": "https://www.schoolofdata.ch/"
-  }]
+  ]
 }
