@@ -2,8 +2,8 @@
   "profile": "tabular-data-package",
   "resources": [
     {
-      "name": "data/jahresabonnemente_verbund",
-      "path": "verbunde_small.csv",
+      "name": "jahresabonnemente_verbund",
+      "path": "data/verbunde_small.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
